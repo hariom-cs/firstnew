@@ -1,15 +1,24 @@
-*{
-    margin: 0;
-    padding: 10px;
-}
 body{
-    color: brown;
-    padding: 1px;
+    margin: 0;
 }
-h1{
+.heading{
+    position: relative;
+    display: flex;
+    padding: 2px;
+    background-color: brown;
+    justify-content: space-between;
+}
+.heading h1{
+    margin: 10px;
     font-weight: 600;
-    color: violet;
-    background-color: aquamarine;
-    padding: 20px;
+    color: rgb(0, 196, 20);
+    background-color: rgb(242, 242, 51);
+    padding: 5px;
     border-radius: 10px;
+}
+.box{
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    background-color: aqua;
 }
